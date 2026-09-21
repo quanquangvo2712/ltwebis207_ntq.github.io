@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập 2 - Giới thiệu bản thân</title>
+    <!-- Nhúng file External CSS theo yêu cầu -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+    <!-- Menu điều hướng -->
+    <nav>
+        <a href="#gioi-thieu">Giới thiệu bản thân</a> | 
+        <a href="#lien-he">Gửi thông tin và giao lưu cùng tôi</a>
+    </nav>
+
+    <!-- Phần 1: Giới thiệu bản thân -->
+    <div id="gioi-thieu">
+        <!-- Inline CSS phối màu tiêu đề -->
+        <h1 style="color: #CAEDFF;">Giới thiệu bản thân</h1>
+
+        <!-- Inline CSS canh giữa ảnh đại diện -->
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIWqXViWr3RRRsPmusZeL089kx0n7qbCWEYrhefgTJfQ&s=10"
+            alt="Ảnh đại diện" width="120" height="120" style="display: block; margin: 0 auto;">
+
+        <h2 style="color: #D8B4F8;">Thông tin cơ bản</h2>
+        <ul>
+            <li>Tên: <strong>Nguyễn Tùng Quân</strong></li>
+            <li>Năm sinh: 2006</li>
+            <li>Chuyên ngành: Hệ thống thông tin</li>
+        </ul>
+
+        <h2 style="color: #D8B4F8;">Sở thích</h2>
+        <ul>
+            <li>Nghe nhạc</li>
+            <li>Chơi game</li>
+            <li>Đá bóng</li>
+        </ul>
+
+        <h3 style="color: #FFC7EA;">Món ăn</h3>
+        <ol>
+            <li>Ức gà luộc sốt chanh leo</li>
+            <li>Cơm nhà nấu</li>
+            <li>Cơm chùa</li>
+        </ol>
+
+        <h3 style="color: #FFC7EA;">Giải trí</h3>
+        <h4>Trò chơi</h4>
+        <ul>
+            <li>Liên quân</li>
+            <li>Efootball (PES)</li>
+        </ul>
+
+        <h4>Bài nhạc yêu thích</h4>
+        <ul>
+            <li>Yêu kiều - Parys</li>
+            <li>Snooze - SZA</li>
+            <li>Chìm sâu - MCK</li>
+        </ul>
+
+        <h2 style="color: #D8B4F8;">Mục tiêu của bản thân</h2>
+        <!-- Bảng mục tiêu -->
+        <table>
+            <tr>
+                <th>Mục tiêu</th>
+                <th>Thời hạn</th>
+                <th>Hoàn thành</th>
+            </tr>
+            <tr>
+                <td>Trung bình điểm môn web đạt 8.0</td>
+                <td>30/12/2024</td>
+                <td style="text-align: center;"><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>Đạt chứng chỉ ngoại ngữ đủ chuẩn tốt nghiệp</td>
+                <td>15/06/2025</td>
+                <td style="text-align: center;"><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>Chọn được công ty với vị trí Business Analyst</td>
+                <td>01/09/2026</td>
+                <td style="text-align: center;"><input type="checkbox"></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Phần 2: Gửi thông tin và giao lưu -->
+    <div id="lien-he">
+        <h1 style="color: #CAEDFF;">Gửi thông tin và giao lưu cùng tôi</h1>
+        
+        <!-- Form giao lưu -->
+        <form action="#" method="POST" style="text-align: left; display: inline-block; background-color: rgba(255, 255, 255, 0.8); padding: 20px; border-radius: 8px;">
+            <label>Họ và tên: </label>
+            <input type="text" name="hoten"><br><br>
+
+            <label>Email: </label>
+            <input type="email" name="email"><br><br>
+
+            <label>Tin nhắn:</label><br>
+            <textarea name="tinnhan" rows="5" cols="50"></textarea><br><br>
+
+            <label>Giới tính:</label><br>
+            <input type="radio" name="gioitinh" value="Nam"> Nam
+            <input type="radio" name="gioitinh" value="Nữ"> Nữ<br><br>
+
+            <label>Sở thích:</label><br>
+            <input type="checkbox" name="sothich" value="Nghe nhạc"> Nghe nhạc
+            <input type="checkbox" name="sothich" value="Bơi lội"> Bơi lội
+            <input type="checkbox" name="sothich" value="Biển"> Biển<br><br>
+
+            <label>Ngành: </label>
+            <select name="nganh">
+                <option value="Khoa học Máy tính">Khoa học Máy tính</option>
+                <option value="Hệ thống Thông tin">Hệ thống Thông tin</option>
+                <option value="Kỹ thuật Phần mềm">Kỹ thuật Phần mềm</option>
+            </select><br><br>
+
+            <button type="submit">Gửi</button>
+        </form>
+        <br><br>
+        <p>Email cá nhân: <strong>quan271206@gmail.com</strong></p>
+        <p>Facebook / LinkedIn: <strong>https://www.facebook.com/quan.nguyen.26045?locale=vi_VN</strong></p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <!-- Lưu ý: Thay chữ MSSV bằng Mã số sinh viên thật của bạn -->
+        <p>@2026 24521447 Nguyễn Tùng Quân</p>
+    </footer>
+
+</body>
+</html>
