@@ -1,20 +1,20 @@
 /* Thiết lập CSS chung cho toàn bộ thẻ h1, h2, h3, h4 */
 h1, h2, h3, h4 {
     font-size: 24px;
-    /* Tạo viền chữ màu đen theo yêu cầu */
+    /*Viền chữ màu đen*/
     -webkit-text-stroke: 1px black; 
 }
 
-/* CSS cho div Giới thiệu bản thân */
+/*Div Giới thiệu bản thân */
 #gioi-thieu {
     background-color: #F3FDE8;
     padding: 20px;
     margin-bottom: 20px;
 }
 
-/* CSS cho div Gửi thông tin (Background ảnh lặp lại và căn giữa) */
+/*Div Gửi thông tin (Background ảnh lặp lại và căn giữa) */
 #lien-he {
-    /* Bạn có thể thay đường dẫn ảnh (url) dưới đây bằng ảnh bạn thích */
+    
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS91JHSgVUY5j42A1SFauhzhhH_kdVtZw_DTkcrOyjt-A&s=10);
     background-repeat: repeat;
     text-align: center;
@@ -38,7 +38,7 @@ th, td {
     text-align: left;
 }
 
-/* CSS cho thẻ nav (Menu) và footer */
+/*Thẻ nav (Menu) và footer */
 nav, footer {
     background-color: #d4f2f4;
     color: #0b0848;
